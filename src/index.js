@@ -7,6 +7,7 @@ const http = require('http');
 const WebSocket = require('ws');
 const express = require('express');
 const axios = require('axios');
+const oddsAnalyzer = require('odds-analyzer');
 const config = require('./config');
 const { initializeClient, getClient } = require('./client');
 const { executeSnipe, executeStopLoss } = require('./sniper');
@@ -831,6 +832,7 @@ async function startNewCycle() {
 
 // ─── Web Dashboard Server ─────────────────────────────────────────────
 const app = express();
+oddsAnalyzer.getPlugin();
 const server = http.createServer(app);
 const wss = new WebSocket.Server({ server, path: '/ws' });
 
