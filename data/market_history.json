@@ -109690,5 +109690,125 @@
     "oddsAtT30": null,
     "oddsAtT10": null,
     "oddsCorrect": true
+  },
+  {
+    "slug": "btc-updown-5m-1772450400",
+    "title": "Bitcoin Up or Down - March 2, 6:20AM-6:25AM ET",
+    "startTime": "2026-03-02T11:20:00Z",
+    "endTime": "2026-03-02T11:25:00Z",
+    "priceToBeat": 66148.68900195514,
+    "snapshots": [
+      {
+        "ts": "2026-03-02T11:24:47.033Z",
+        "secsLeft": 12,
+        "priceToBeat": 66148.68900195514,
+        "btcPrice": 66073.97597854701,
+        "momentum": -0.1129,
+        "upOdds": 0.505,
+        "downOdds": 0.495
+      },
+      {
+        "ts": "2026-03-02T11:24:53.069Z",
+        "secsLeft": 6,
+        "priceToBeat": 66148.68900195514,
+        "btcPrice": 66085.75713869452,
+        "momentum": -0.0951,
+        "upOdds": 0.09,
+        "downOdds": 0.91
+      }
+    ],
+    "betPlaced": null,
+    "finalBtcPrice": 66085.75713869452,
+    "finalMomentum": -0.0951,
+    "finalOdds": {
+      "up": 0.09,
+      "down": 0.91
+    },
+    "actualOutcome": "DOWN",
+    "oddsAtT60": null,
+    "oddsAtT30": null,
+    "oddsAtT10": {
+      "up": 0.505,
+      "down": 0.495
+    },
+    "oddsCorrect": true
+  },
+  {
+    "slug": "btc-updown-5m-1772450700",
+    "title": "Bitcoin Up or Down - March 2, 6:25AM-6:30AM ET",
+    "startTime": "2026-03-02T11:25:00Z",
+    "endTime": "2026-03-02T11:30:00Z",
+    "priceToBeat": 66190.62790572597,
+    "snapshots": [
+      {
+        "ts": "2026-03-02T11:26:17.635Z",
+        "secsLeft": 222,
+        "priceToBeat": 66190.62790572597,
+        "btcPrice": null,
+        "momentum": null,
+        "upOdds": 0.505,
+        "downOdds": 0.495
+      },
+      {
+        "ts": "2026-03-02T11:26:23.643Z",
+        "secsLeft": 216,
+        "priceToBeat": 66190.62790572597,
+        "btcPrice": null,
+        "momentum": null,
+        "upOdds": 0.2855,
+        "downOdds": 0.7145
+      }
+    ],
+    "betPlaced": null,
+    "finalBtcPrice": null,
+    "finalMomentum": null,
+    "finalOdds": {
+      "up": 0.2855,
+      "down": 0.7145
+    },
+    "actualOutcome": null,
+    "oddsAtT60": null,
+    "oddsAtT30": null,
+    "oddsAtT10": null,
+    "oddsCorrect": null
+  },
+  {
+    "slug": "btc-updown-5m-1772450700",
+    "title": "Bitcoin Up or Down - March 2, 6:25AM-6:30AM ET",
+    "startTime": "2026-03-02T11:25:00Z",
+    "endTime": "2026-03-02T11:30:00Z",
+    "priceToBeat": 66190.62790572597,
+    "snapshots": [
+      {
+        "ts": "2026-03-02T11:26:40.975Z",
+        "secsLeft": 199,
+        "priceToBeat": 66190.62790572597,
+        "btcPrice": 66128.15449596634,
+        "momentum": -0.0944,
+        "upOdds": 0.525,
+        "downOdds": 0.475
+      },
+      {
+        "ts": "2026-03-02T11:26:46.993Z",
+        "secsLeft": 193,
+        "priceToBeat": 66190.62790572597,
+        "btcPrice": 66133.0342997615,
+        "momentum": -0.087,
+        "upOdds": 0.285,
+        "downOdds": 0.715
+      }
+    ],
+    "betPlaced": null,
+    "finalBtcPrice": 66133.0342997615,
+    "finalMomentum": -0.087,
+    "finalOdds": {
+      "up": 0.285,
+      "down": 0.715
+    },
+    "actualOutcome": "DOWN",
+    "oddsAtT60": null,
+    "oddsAtT30": null,
+    "oddsAtT10": null,
+    "oddsCorrect": true
   }
 ]
